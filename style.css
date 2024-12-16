@@ -27,6 +27,9 @@
   width: 500px;
   margin: 0 auto 0;
 }
+#add-item {
+  margin-top: 16px;
+}
 .task {
   width: 56%;
   display: inline-block;
@@ -61,8 +64,7 @@
   color: #3a3a3a;
 }
 /* Heading */
-.heading,
-.new-label {
+.heading {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -147,6 +149,7 @@
   width: 224px;
 }
 
-.edit-mode .task-label {
+.edit-mode .task-label,
+.hidden {
   display: none;
 }
